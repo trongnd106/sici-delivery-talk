@@ -8,13 +8,15 @@ DeliverTalk là hệ thống nhận diện giọng nói thời gian thực đư�
 - Giao diện thân thiện, hỗ trợ tiếng Việt
 
 ## Cách sử dụng
-1. Cài đặt Streamlit:
-```bash 
-pip install streamlit
-```
-2. Chạy ứng dụng:
+1. Chạy Server:
 ```bash
-streamlit run streamlit_app.py
+cd backend
+python server.py
+```
+2. Chạy giao diện:
+```bash
+cd frontend
+npm start
 ```
 
 ## Nhóm phát triển
